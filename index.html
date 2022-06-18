@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="style.css">
+    <title>Book List</title>
+</head>
+<body>
+    <header id="pageHeader">
+        <p id="pageHeaderText">My Personal Book List</p>
+    </header>
+    <div id="container">
+        <div id="add">
+            <form id="titlePagesAuthor">
+                <input type="text" placeholder="Title" id="title" name="title" class="entries">
+                <input type="text" placeholder="Author" id="author" name="author" class="entries">
+                <input type="number" placeholder="Pages" id="pages" name="pages" class="entries">
+                <input type="submit" value="Add Book" id="addBook">
+            </form>
+            <div id="newBook1">
+                <p id="newBook"></p>
+            </div>
+        </div>
+        <div id="adjContainer">
+            <div id="adjectives">
+                <div id="titleadj">title:</div>
+                <p id="authoradj">author:</p>
+                <p id="pagesadj">pages:</p>
+
+            </div>
+            <div id="adjectives2">
+
+            </div>
+        </div>  
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
